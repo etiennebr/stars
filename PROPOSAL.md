@@ -7,7 +7,7 @@ Racine](https://github.com/etiennebr)
 ## Summary
 
 A lot of spatiotemporal data takes the form of dense,
-multidimensional arrays. Examples are
+multidimensional arrays:
 
 * population counts by region, year and age group 
 * meteorological data by variable, time step and sensor location 
@@ -15,7 +15,7 @@ multidimensional arrays. Examples are
 * or climate data (e.g. surface temperature by location, time and climate scenario). 
 
 Although such data _can_ be represented in long tables, it is
-rarely done in for larger datasets because it has to replicate
+rarely useful for larger datasets because it requires to replicate
 dimension indexes, and because the array form provides faster
 access. R's native arrays can't handle data records of mixed
 type like we typically find in data.frame's, can only deal
@@ -23,8 +23,8 @@ with in-memory data, and does not handle spatial or temporal
 array dimensions. This project will (i) implement a flexible
 and generic array model for heterogeneous records that (ii) can
 handle strong spatial and temporal referencing of array indexes,
-and (iii) can scale from moderately large data in memory,
-to large data on disk, and massive data on a remote server while
+and (iii) can scale from in memory,
+to on disk, and to s remote server while
 using a unified user interface that follows the [tidy tools
 manifesto](https://cran.r-project.org/web/packages/tidyverse/vignettes/manifesto.html).
 
