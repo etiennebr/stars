@@ -12,9 +12,9 @@ for handling this kind of data in memory and on disk, but does not
 address non-raster time series, rasters time series with multiple
 attributes, or rasters with mixed type attributes. This project
 will not only deal with these cases, but also extend the "in memory
-or on disk" model to that where the data are held remotely in
+or on disk" model to where the data are held remotely in
 cloud storage, which is a more feasible option e.g. for satellite
-data collected Today. We will implement pipe-based workflows that
+data collected today. We will implement pipe-based workflows that
 are developed and tested on samples before they are evaluated for
 complete datasets, and discuss the challenges of visualiasation and
 storage in such workflows. This is work in progress, and the talk
